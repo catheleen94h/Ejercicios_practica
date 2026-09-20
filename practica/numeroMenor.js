@@ -42,7 +42,7 @@ let valorIngresado = +prompt(`ingrese numero ${i+1}: `);
 
     //if(numeros[i]<resultado){ resultado=numeros[i];}
     resultado = numeros[i]<resultado ? numeros[i] : resultado;
-        console.log(resultado);
+
     }
 
     return resultado;
