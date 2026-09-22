@@ -8,7 +8,6 @@ Extra: haz que también funcione si todos los números son negativos.
 
 */
 
-const prompt = require('prompt-sync')();
 let a = [4, 30, 2, 15, 6];
 
 

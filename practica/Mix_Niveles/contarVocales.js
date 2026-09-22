@@ -18,10 +18,10 @@ let palabra = prompt("ingrese su palabra: ");
 let minuscula = palabra.toLowerCase();
 let conteo=0;
 
-for(let i=0 ; i<minuscula.length+1; i++ ){
+for(let i=0 ; i<minuscula.length ; i++ ){
     let letra = minuscula[i];
     
-    if ("5".includes(letra)){
+    if ("aeiou".includes(letra)){
         conteo++;}
 
 

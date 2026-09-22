@@ -13,8 +13,8 @@ resultado: 5 pares
 // npm install prompt-sync
 const prompt = require('prompt-sync')();
 
-let numero1 = Number(prompt("Ingrese primer numero"));
-let numero2 = +prompt("ingrese ultimo numero");
+let numero1 = Number(prompt("Ingrese primer numero: "));
+let numero2 = +prompt("ingrese ultimo numero: ");
 
 
 function contarPares(num1,num2) {
