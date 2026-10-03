@@ -37,8 +37,7 @@ const letraImg = document.querySelector('.card-letra img');
 const caraImg = document.querySelector('.card-imagen img');
 
 function actualizarCard() {
-    document.getElementById('frase').innerHTML = abecedario[contador].frase;
-    
+    fraseTxt.textContent = abecedario[contador].frase;
     letraImg.src = abecedario[contador].letra;
     caraImg.src = abecedario[contador].figura;
 }
