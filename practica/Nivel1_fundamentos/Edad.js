@@ -3,8 +3,10 @@
 Pide el año de nacimiento.
 Calcula aproximadamente la edad actual.*/
 
-const prompt = require('prompt-sync')();
+
 const aoActual = new Date().getFullYear();
+const prompt = require('prompt-sync')();
+
 
 let Nacimiento = Number(prompt("ingrese su año de nacimiento: "));
 

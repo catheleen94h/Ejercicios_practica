@@ -1,0 +1,40 @@
+
+body{
+    background-color: rgba(209, 204, 204, 0.425);
+    /* Convertimos el body en un contenedor flexible */
+    display: flex;
+    flex-direction: column; /* Apila título, conteo y la fila de botones */
+    align-items: center;    /* Centra horizontalmente todo el contenido */
+    min-height: 100vh;      /* Asegura que tome toda la altura de la pantalla */
+    margin: 0;
+}
+
+
+#titulo{
+    text-align: center;
+    font-size: 50px;
+}
+
+#conteo{
+    text-align: center;
+    font-size: 40PX;
+    color: blue;
+}
+
+.contedor-botones{
+    display: flex;
+    gap: 20px; 
+}
+
+
+#incremento{
+
+    font-size: larger;
+    background-color: aquamarine;
+}
+
+#decremento{
+
+    font-size: larger;
+    background-color: pink;
+}

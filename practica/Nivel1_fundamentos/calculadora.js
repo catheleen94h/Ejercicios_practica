@@ -9,8 +9,7 @@ Muestra suma, resta, multiplicación y división.
 const prompt = require('prompt-sync')();
 
 let resultado;
-let operacion = +prompt(
-`Operacion a realizar: 1.Sum | 2.Res | 3.Mul | 4.Div: `);
+let operacion = +prompt(`Operacion a realizar: 1.Sum | 2.Res | 3.Mul | 4.Div: `);
 
 if ([1, 2, 3, 4].includes(operacion) ){
  

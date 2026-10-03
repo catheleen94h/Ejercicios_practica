@@ -1,0 +1,43 @@
+body{
+    background-color: bisque; 
+
+
+    display: flex;
+    justify-content: center; /* Centra horizontalmente (izquierda / derecha) */
+    align-items: center;     /* Centra verticalmente (arriba / abajo) */
+    min-height: 100vh;       /* Fuerza al body a medir el 100% del alto de la pantalla */
+    margin: 0;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* Centra el título y el contenido dentro de la tarjeta */
+    width: 350px;            /* Un ancho más acorde para una tarjeta */
+    background-color: white; /* ¡ESTO ES CLAVE! Le da el color de caja blanca */
+    border-radius: 20px;     /* Bordes redondeados */
+    padding: 25px;           /* Espacio interno para que respire el texto */
+    gap: 15px;               /* Separa los elementos dentro de la tarjeta */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+   
+}
+
+.estadisticas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.acciones{
+    text-align: center;
+    display: flex;
+    gap:30px
+}
+
+.acciones button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
